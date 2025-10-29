@@ -1,0 +1,87 @@
+.home-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.symptom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  background: #0f1117;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+}
+
+.symptom-card {
+  background: #181c22;
+  padding: 12px 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.symptom-card:hover {
+  border-color: cyan;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.symptom-card h4 {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  color: cyan;
+  font-size: 15px;
+}
+
+.radio-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.analyze-btn {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  padding: 12px;
+  background: cyan;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+
+.analyze-btn:hover {
+  opacity: 0.85;
+  box-shadow: 0 0 10px cyan;
+}
+
+.diag-title {
+  margin-top: 30px;
+  font-size: 22px;
+  border-bottom: 2px solid cyan;
+  width: fit-content;
+}
+
+.diag-list {
+  margin-top: 10px;
+  line-height: 1.8;
+  list-style: none;
+}
+
+.diag-list li::before {
+  content: "• ";
+  color: cyan;
+}

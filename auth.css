@@ -1,0 +1,84 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0e0f10;
+  font-family: 'Poppins', sans-serif;
+}
+
+.auth-card {
+  background: #141516;
+  border-radius: 16px;
+  padding: 40px 50px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  text-align: center;
+  color: #fff;
+  width: 350px;
+}
+
+.auth-box {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+  background: #1f1f1f;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.auth-input::placeholder {
+  color: #888;
+}
+
+.auth-button {
+  background: #00d4d4;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.auth-button:hover {
+  background: #00ffff;
+}
+
+.auth-toggle {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.auth-toggle button {
+  background: none;
+  border: none;
+  color: #00d4d4;
+  cursor: pointer;
+  font-weight: bold;
+}
+.auth-toggle button:hover {
+  color: #00ffff;
+}
+.auth-card {
+  backdrop-filter: blur(8px);
+  background: rgba(20, 21, 22, 0.75);
+  transition: all 0.3s ease-in-out;
+}
+
+.auth-card:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+  transform: translateY(-2px);
+}

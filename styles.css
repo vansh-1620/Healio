@@ -1,0 +1,9 @@
+body{font-family: Arial, sans-serif;margin:0;background:#f5f7fb}
+.container{max-width:1000px;margin:20px auto;padding:10px}
+.nav{background:#fff;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+.button{padding:8px 12px;border-radius:8px;border:0;cursor:pointer}
+.auth-panels{display:flex;gap:20px}
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+.form-row{margin-bottom:10px}
+.symptom-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.symptom-card{padding:8px;border-radius:8px;background:#fff;display:flex;flex-direction:column;gap:6px}
